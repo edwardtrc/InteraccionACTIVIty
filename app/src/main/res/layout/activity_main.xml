@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#009688"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="116dp"
+        android:layout_height="184dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.554"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.697">
+
+        <Button
+            android:id="@+id/btnOPERACIONES"
+            android:layout_width="113dp"
+            android:layout_height="60dp"
+            android:background="#4CAF50"
+            android:onClick="CALCoperacion"
+            android:text="Operaciones" />
+
+        <Button
+            android:id="@+id/btnSALUD"
+            android:layout_width="112dp"
+            android:layout_height="61dp"
+            android:background="#8BC34A"
+            android:onClick="calcSALUD"
+            android:text="SALUD" />
+
+        <Button
+            android:id="@+id/btnSALIR"
+            android:layout_width="112dp"
+            android:layout_height="wrap_content"
+            android:background="#CDDC39"
+            android:onClick="salida"
+            android:text="Salir" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
